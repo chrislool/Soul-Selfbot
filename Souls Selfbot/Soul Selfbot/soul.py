@@ -117,7 +117,7 @@ Magenta = 0xFF0092
 @client.event
 async def on_message(message):
     global prefix
-    prefix = prefix
+    prefix = c
     if message.author == client.user:
         commands = [c]
         z = 0
