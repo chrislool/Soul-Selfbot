@@ -117,15 +117,15 @@ Magenta = 0xFF0092
 @client.event
 async def on_message(message):
     global prefix
-    prefix = s
+    prefix = S
     if message.author == client.user:
-        commands = [s]
-        z = s
+        commands = [S]
+        z = S
         for index, a in enumerate(message.content):
-            if a == "s":
+            if a == "":S
                 commands.append(message.content[z:index])
                 z = index + 1
-        commands.append(message.content[s:])
+        commands.append(message.content[S:])
 
         channel = message.channel
 ################################################################################################################################
