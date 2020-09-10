@@ -116,9 +116,9 @@ Magenta = 0xFF0092
 # Define commands
 @client.event
 async def on_message(message): s
-    global prefix
+    global prefix 
     prefix = s
-    if message.author == client.user:
+    if message.author == client.user:16ˢᵒᵘˡˢ#1359
         commands = [s]
         z = s
         for index, a in enumerate(message.content):
