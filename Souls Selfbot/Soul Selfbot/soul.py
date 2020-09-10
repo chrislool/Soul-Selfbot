@@ -1,26 +1,3 @@
-#######################
-# If you plan on ripping this source please give credits to the original developers @flexingonlamers
-#######################
-
-# How to made by cri <
-# How to make an embedded message
-# first we need our commands list
-# if commands[0] == "name":  <-- this is reading the user input from the discord client
-# await message.delete()   <-- This is waiting for our message to auto-delete to display our embedded menu/message
-#  container = discord.Embed(title="TEXT INPUT HERE ", color=HEXVALUE)  <-- this is creating our container
-# In other words its our "base" in which we select our embedded menu title and color. Picture: http://prntscr.com/o8p2oj
-# by inputting ** before and after our text input it creates a BOLD text/input. 
-# by inputting __ before and after our text input and or ** it underlines our text/input
-# container.set_thumbnail(url="URL/LINK")  <-- this allows us to add a "thumbnail", basically just a picture in the top right corner of our embedded menu/container
-# container.set_author(name="TEXT INPUT", icon_url="ICON URL/LINK")  <-- this is our "author" title, it allows us to display a message and ICON above our title
-# container.add_field(name="TEXT INPUT", value="TEXT INPUT", inline=True)  <-- this is adding another field input, name= is our title for said field.
-# value= the text under our field title, inline=True/False < this allows us to either stick fields within the same line and or display this in a seperate line
-# picture: http://prntscr.com/o8p5an
-# container.set_footer(text="TEXT INPUT", icon_url="URL/LINK")   <-- this is basically the same as the "author" field, except its only displayed at the bottom.
-# await channel.send(embed=container)   <-- this is our container EMBED, this allows our message to be embedded and sent sucessfully. must add this under our field
-# 
-# -*- coding: utf-8 -*-
-
 token = " PASTE YOUR TOKEN HERE "
 
 import discord
