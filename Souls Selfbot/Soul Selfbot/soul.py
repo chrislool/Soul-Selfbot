@@ -1,4 +1,4 @@
-token =  "NzQxOTY3OTQ0MjU4NTUxODM5.Xy_2Ag.HOPfc0HU2D9Uq56mS6WwBqJI90E"
+token ="NzQxOTY3OTQ0MjU4NTUxODM5.Xy_2Ag.HOPfc0HU2D9Uq56mS6WwBqJI90E"
 
 import discord
 import asyncio
