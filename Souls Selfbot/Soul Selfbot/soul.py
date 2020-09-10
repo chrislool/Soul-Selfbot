@@ -119,7 +119,7 @@ async def on_message(message):
     global prefix
     prefix = prefix
     if message.author == client.user:
-        commands = []
+        commands = [c]
         z = 0
         for index, a in enumerate(message.content):
             if a == " ":
